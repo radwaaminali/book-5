@@ -10,6 +10,7 @@ import Opportunities from './components/Opportunities';
 import Personas from './components/Personas';
 import Competitors from './components/Competitors';
 import Strategy from './components/Strategy';
+import KPIs from './components/KPIs';
 import Timeline from './components/Timeline';
 import Recommendations from './components/Recommendations';
 import Gallery from './components/Gallery';
@@ -23,7 +24,7 @@ const sections = [
   { id: 'personas', title: 'Personas', component: Personas },
   { id: 'competitors', title: 'Competitors', component: Competitors },
   { id: 'strategy', title: 'SWOT Analysis', component: Strategy },
-  { id: 'kpis', title: 'KPIs & Strategy', component: Strategy }, // Using Strategy component for visual consistency, usually would split
+  { id: 'kpis', title: 'KPIs & Strategy', component: KPIs },
   { id: 'timeline', title: '30-Day Plan', component: Timeline },
   { id: 'recommendations', title: 'Recommendations', component: Recommendations },
   { id: 'gallery', title: 'Portfolio Gallery', component: Gallery },
